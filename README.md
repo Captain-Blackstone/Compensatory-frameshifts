@@ -2,7 +2,7 @@ This repository contains scripts I considered to be relevant to understand the a
 
 Because reproducibility is very important!
 
-However, I highly doubt anyone will to to such trouble just to understand the algorithm... but whatever. If you read this text, you're a good candidate) 
+However, I highly doubt anyone will go to such trouble just to understand the algorithm... but whatever. If you read this text, you're a good candidate) 
 
 Feel free to contact me through my e-mail.
 
@@ -17,8 +17,8 @@ so, if you don't have such folders (which you most probably don't) on your compu
 
 Also the algorithm uses a phylogenetic tree,which I store in the variable, you know, TREE. You also need toredefine it using your own tree.
 
-You also might wonder, why these scripts and files they produce containt the word "slow". That's because I tried to design a fast version of this script using multiprocessing module, but for some incomprehensible reason it refsused to work on more than 1000 files, so I ended up using the slow version.
+One might also wonder, why these scripts and files they produce contain the word "slow". That's because I tried to design a fast version of this script using multiprocessing module, but for some incomprehensible reason it refused to work with more than 1000 files, so I ended up using the slow version.
 
-Also, the script used for insects is considerably different from the first one. That is because I optimized it in terms of speed and code comprehensibiity. Why didn't I make changes to the initial script? Well, that's because it served it purpose and I hadly beleive anyone will ever read it. So, if you find yourself being interested in it, you can e-mail me something like "Man, your script is awful, can you make it, I don't know, better? I really need to understand what's going on there.". Then I will, though pretty reluctantly (who wants to revise his old script!?) respond to your request.
+Also, the script used for insects is considerably different from the first one. That is because I optimized it in terms of speed and code comprehensibiity. Why didn't I make changes to the initial script? Well, that's because it served it purpose and I hardly beleive anyone will ever read it. So, if you find yourself being interested in it, you can e-mail me something like "Man, your script is awful, can you make it, I don't know, better? I really need to understand what's going on there.". Then I will, though pretty reluctantly (who wants to revise his old script!?) respond to your request.
 
-So, I believe, that's it, my friend. Good luck and have fun!
+So, I beleive, that's it, my friend. Good luck and have fun!
