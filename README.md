@@ -9,11 +9,13 @@ Feel free to contact me through my e-mail.
 bibadima@rambler.ru or dmitriy.biba@gmail.com (I really hope to switch to the second adress one day, but currently use the first one).
 
 The script was not intended to be a command line tool. Rather it was intended to operate only once and to deal with all files in the folder
-"/mnt/lustre/Blackstone/pipeline_intermediate_data/for_indel_finder/"
+"/mnt/lustre/Blackstone/pipeline_intermediate_data/for_indel_finder/" (or "/mnt/lustre/Blackstone/insect_pipeline_intermediate_data/for_indel_finder/" in case of insects)
 and store the results in the folder
 "output_indel_finder/"
 
-so, if you don't have such folder (which you most probably don't) on your computer, change the variables in_dir and out_dir in the code.
+so, if you don't have such folders (which you most probably don't) on your computer, change the variables in_dir and out_dir in the code.
+
+Also the algorithm uses a phylogenetic tree,which I store in the variable, you know, TREE. You also need toredefine it using your own tree.
 
 You also might wonder, why these scripts and files they produce containt the word "slow". That's because I tried to design a fast version of this script using multiprocessing module, but for some incomprehensible reason it refsused to work on more than 1000 files, so I ended up using the slow version.
 
